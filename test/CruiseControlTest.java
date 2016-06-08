@@ -113,4 +113,78 @@ public class CruiseControlTest {
         assertEquals(c1.main1(CruiseControl.OFF, "dec"),CruiseControl.OFF);
          
     }
+      @Test
+    public void test1Ready2Off() { 
+        
+        assertEquals(c1.main1(CruiseControl.READY, "Engineoff"),CruiseControl.OFF);
+         
+    }
+    @Test
+    public void test2Ready2Off() {
+        
+        assertEquals(c1.main1(CruiseControl.READY, "set"),CruiseControl.SET);
+         
+    }
+    @Test
+    public void test3Ready2Off() {
+        
+        assertEquals(c1.main1(CruiseControl.READY, "brake"),CruiseControl.OFF);
+         
+    }
+    @Test
+    public void test4Ready2Off() {
+        
+        assertEquals(c1.main1(CruiseControl.READY, "accP"),CruiseControl.OFF);
+         
+    }
+    @Test
+    public void test5Ready2Off() {
+        
+        assertEquals(c1.main1(CruiseControl.READY, "accR"),CruiseControl.OFF);
+         
+    }
+    @Test
+    public void test6Ready2Off() {
+        
+        assertEquals(c1.main1(CruiseControl.READY, "resume"),CruiseControl.OFF);
+         
+    }
+    @Test
+    public void test7Ready2Off() {
+        
+        assertEquals(c1.main1(CruiseControl.READY, "correct"),CruiseControl.OFF);
+         
+    }
+    @Test
+    public void test8Ready2Off() {
+        
+        assertEquals(c1.main1(CruiseControl.READY, "slow"),CruiseControl.OFF);
+         
+    }
+    @Test
+    public void test9Ready2Off() {
+        
+        assertEquals(c1.main1(CruiseControl.READY, "fast"),CruiseControl.OFF);
+         
+    }
+    @Test
+    public void test10Ready2Off() {
+        
+        assertEquals(c1.main1(CruiseControl.READY, "store"),CruiseControl.OFF);
+         
+    }
+    @Test
+    public void test11Ready2Off() {
+        
+        assertEquals(c1.main1(CruiseControl.READY, "inc"),CruiseControl.OFF);
+         
+    }
+    
+    @Test
+    public void test12Ready2Off() {
+        
+        assertEquals(c1.main1(CruiseControl.READY, "dec"),CruiseControl.OFF);
+         
+    }
+
 }

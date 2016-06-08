@@ -12,10 +12,12 @@ public static final int resume = 6;
 public static final int correct = 7; 
 public static final int slow = 8; 
 public static final int fast = 9; 
+public static final int Engineoff = 18;
 // Outputs 
 public static final int store = 10; 
 public static final int inc = 11; 
-public static final int dec = 12; 
+public static final int dec = 12;
+
 // States 
 public static final int OFF = 13; 
 public static final int READY = 14; 
